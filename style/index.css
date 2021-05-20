@@ -2,7 +2,7 @@ body {
   background-color: rgb(226, 226, 226);
 }
 
-.layout {
+.card__layout {
   display: flex;
   justify-content: space-around;
 }
@@ -16,20 +16,20 @@ body {
   background-color: #fff;
 }
 
-.card__img {
+.card__img--main {
   width: 24rem;
 }
 
-.card__article1 {
+.card--venice__content {
   padding: 0 1.5rem;
 }
 
-.card__article1 h1 {
+.card--venice__content h1 {
   margin: 1rem 0;
   font: 350 1.6rem sans-serif;
 }
 
-.card__article1 aside {
+.card--venice__content aside {
   position: absolute;
   top: 2rem;
   right: 3rem;
@@ -43,14 +43,14 @@ body {
   line-height: 1.3rem;
 }
 
-.card__article1 p {
+.card--venice__content p {
   background-image: -webkit-linear-gradient(bottom, rgb(255, 255, 255), rgb(128, 128, 128));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 1.8rem;
 }
 
-.card__article1__button {
+.card--venice__content__button {
   position: absolute;
   bottom: 3rem;
   left: 50%;
@@ -63,13 +63,10 @@ body {
   color: #fff;
   text-align: center;
   line-height: 2.6rem;
-}
-
-.card__article1__button:hover {
   cursor: pointer;
 }
 
-.card__article2 {
+.card--burano__content {
   position: absolute;
   bottom: -2rem;
   left: 50%;
@@ -81,41 +78,41 @@ body {
   background-color: #fff;
 }
 
-.card__heart {
+.card--burano__img--like {
   position: absolute;
   top: 2rem;
   right: 2rem;
   cursor: pointer;
 }
 
-.card__article2__stars {
+.card--burano__content__rank {
   margin: 1rem 0;
   font: 350 .6rem sans-serif;
   color: rgba(70, 70, 70, 0.6);
 }
 
-.card__article2__stars img {
+.card--burano__content__rank img {
   margin-right: .4rem;
   width: 80px;
   vertical-align: top;
 }
 
-.card__article2 h1 {
+.card--burano__content h1 {
   font: 360 1.4rem sans-serif;
 }
 
-.card__article2 p {
+.card--burano__content p {
   font: 320 1rem sans-serif;
   color: rgba(88, 88, 88, 0.6)
 }
 
-.card__article2 span {
+.card--burano__content span {
   display: block;
   margin-top: .8rem;
   font-size: 1rem;
 }
 
-.card__article2__forward {
+.card--burano__content__forward {
   position: absolute;
   right: 1.5rem;
   bottom: 1.5rem;
@@ -128,6 +125,6 @@ body {
   cursor: pointer;
 }
 
-.card__article2__forward img {
+.card--burano__content__forward img {
   width: .9rem;
 }

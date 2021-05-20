@@ -9,10 +9,14 @@
     <link rel="stylesheet" href="./style/index.css" />
   </head>
   <body>
-    <div class="layout">
+    <div class="card__layout">
       <section class="card">
-        <img class="card__img" src="./images/bg-3.png" alt="Venice Islands" />
-        <article class="card__article1">
+        <img
+          class="card__img--main"
+          src="./images/bg-3.png"
+          alt="Venice Islands"
+        />
+        <article class="card--venice__content">
           <h1>Venice Islands</h1>
           <aside>ITALY</aside>
           <p>
@@ -21,15 +25,19 @@
             gives an overview of the islands of Venice. In lists the islands are
             sorted by size (km²) and number of inhabitants.
           </p>
-          <div class="card__article1__button">View more</div>
+          <div class="card--venice__content__button">View more</div>
         </article>
       </section>
 
       <section class="card">
-        <img class="card__img" src="./images/bg-6.png" alt="Blue House" />
-        <img class="card__heart" src="./images/icon-heart.svg" alt="Heart" />
-        <article class="card__article2">
-          <div class="card__article2__stars">
+        <img class="card__img--main" src="./images/bg-6.png" alt="Blue House" />
+        <img
+          class="card--burano__img--like"
+          src="./images/icon-heart.svg"
+          alt="Like"
+        />
+        <article class="card--burano__content">
+          <div class="card--burano__content__rank">
             <img
               alt="4 stars"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/4_stars.svg/64px-4_stars.svg.png"
@@ -39,7 +47,7 @@
           <h1>The Blue House</h1>
           <p>Burano, Venice, Italy</p>
           <span>$250 per night</span>
-          <div class="card__article2__forward">
+          <div class="card--burano__content__forward">
             <img src="./images/icon-forward.svg" alt="Forward" />
           </div>
         </article>
