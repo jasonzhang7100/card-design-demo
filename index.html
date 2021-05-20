@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Card Design</title>
-    <link rel="stylesheet" href="./normalize.css" />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./style/normalize.css" />
+    <link rel="stylesheet" href="./style/index.css" />
   </head>
   <body>
     <div class="layout">
       <section class="card">
-        <img class="card__img" src="./bg-3.png" alt="Venice Islands" />
+        <img class="card__img" src="./images/bg-3.png" alt="Venice Islands" />
         <article class="card__article1">
           <h1>Venice Islands</h1>
           <aside>ITALY</aside>
@@ -24,13 +24,24 @@
           <div class="card__article1__button">View more</div>
         </article>
       </section>
+
       <section class="card">
-        <img class="card__img" src="./bg-6.png" alt="Blue House" />
-        <article>
-          <div>420 reviews</div>
+        <img class="card__img" src="./images/bg-6.png" alt="Blue House" />
+        <img class="card__heart" src="./images/icon-heart.svg" alt="Heart" />
+        <article class="card__article2">
+          <div class="card__article2__stars">
+            <img
+              alt="4 stars"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/4_stars.svg/64px-4_stars.svg.png"
+            />
+            420 reviews
+          </div>
           <h1>The Blue House</h1>
           <p>Burano, Venice, Italy</p>
-          <p>$250 per nighty</p>
+          <span>$250 per night</span>
+          <div class="card__article2__forward">
+            <img src="./images/icon-forward.svg" alt="Forward" />
+          </div>
         </article>
       </section>
     </div>

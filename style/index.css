@@ -1,0 +1,133 @@
+body {
+  background-color: rgb(226, 226, 226);
+}
+
+.layout {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  position: relative;
+  width: 24rem;
+  height: 28.2rem;
+  border-radius: .8rem;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.card__img {
+  width: 24rem;
+}
+
+.card__article1 {
+  padding: 0 1.5rem;
+}
+
+.card__article1 h1 {
+  margin: 1rem 0;
+  font: 350 1.6rem sans-serif;
+}
+
+.card__article1 aside {
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+  width: 3.6rem;
+  height: 1.3rem;
+  border-radius: .2rem;
+  background-color: rgb(228, 59, 59);
+  font: 300 .8rem sans-serif;
+  color: #fff;
+  text-align: center;
+  line-height: 1.3rem;
+}
+
+.card__article1 p {
+  background-image: -webkit-linear-gradient(bottom, rgb(255, 255, 255), rgb(128, 128, 128));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.8rem;
+}
+
+.card__article1__button {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  margin-left: -3.8rem;
+  width: 7.6rem;
+  height: 2.6rem;
+  border-radius: 1.3rem;
+  background-color: rgb(77, 77, 233);
+  font: 320 1rem sans-serif;
+  color: #fff;
+  text-align: center;
+  line-height: 2.6rem;
+}
+
+.card__article1__button:hover {
+  cursor: pointer;
+}
+
+.card__article2 {
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+  margin-left: -10rem;
+  width: 17rem;
+  height: 10rem;
+  padding: 0 1.5rem;
+  border-radius: .8rem;
+  background-color: #fff;
+}
+
+.card__heart {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+}
+
+.card__article2__stars {
+  margin: 1rem 0;
+  font: 350 .6rem sans-serif;
+  color: rgba(70, 70, 70, 0.6);
+}
+
+.card__article2__stars img {
+  margin-right: .4rem;
+  width: 80px;
+  vertical-align: top;
+}
+
+.card__article2 h1 {
+  font: 360 1.4rem sans-serif;
+}
+
+.card__article2 p {
+  font: 320 1rem sans-serif;
+  color: rgba(88, 88, 88, 0.6)
+}
+
+.card__article2 span {
+  display: block;
+  margin-top: .8rem;
+  font-size: 1rem;
+}
+
+.card__article2__forward {
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  background-color: rgb(77, 77, 233);
+  text-align: center;
+  line-height: 2.2rem;
+  cursor: pointer;
+}
+
+.card__article2__forward img {
+  width: .9rem;
+}
