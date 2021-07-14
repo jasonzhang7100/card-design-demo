@@ -4,14 +4,14 @@ body {
 
 .card__layout {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .card {
   position: relative;
   width: 24rem;
   height: 28.2rem;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
   margin-top: 20px;
   background-color: #fff;
 }
@@ -35,16 +35,20 @@ body {
   right: 3rem;
   width: 3.6rem;
   height: 1.3rem;
-  border-radius: .2rem;
+  border-radius: 0.2rem;
   background-color: rgb(228, 59, 59);
-  font: 300 .8rem sans-serif;
+  font: 300 0.8rem sans-serif;
   color: #fff;
   text-align: center;
   line-height: 1.3rem;
 }
 
 .card--venice__content p {
-  background-image: -webkit-linear-gradient(bottom, rgb(255, 255, 255), rgb(128, 128, 128));
+  background-image: -webkit-linear-gradient(
+    bottom,
+    rgb(255, 255, 255),
+    rgb(128, 128, 128)
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 1.8rem;
@@ -74,7 +78,7 @@ body {
   width: 17rem;
   height: 10rem;
   padding: 0 1.5rem;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
   background-color: #fff;
 }
 
@@ -87,12 +91,12 @@ body {
 
 .card--burano__content__rank {
   margin: 1rem 0;
-  font: 350 .6rem sans-serif;
+  font: 350 0.6rem sans-serif;
   color: rgba(70, 70, 70, 0.6);
 }
 
 .card--burano__content__rank img {
-  margin-right: .4rem;
+  margin-right: 0.4rem;
   width: 80px;
   vertical-align: top;
 }
@@ -103,12 +107,12 @@ body {
 
 .card--burano__content p {
   font: 320 1rem sans-serif;
-  color: rgba(88, 88, 88, 0.6)
+  color: rgba(88, 88, 88, 0.6);
 }
 
 .card--burano__content span {
   display: block;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
   font-size: 1rem;
 }
 
@@ -126,5 +130,5 @@ body {
 }
 
 .card--burano__content__forward img {
-  width: .9rem;
+  width: 0.9rem;
 }
